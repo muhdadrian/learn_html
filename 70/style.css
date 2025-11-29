@@ -1,0 +1,9 @@
+/* inherit means to inherit from parent */
+a {
+  color: inherit;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}

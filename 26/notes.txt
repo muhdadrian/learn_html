@@ -1,0 +1,12 @@
+Media Elements:
+1. <img>
+2. <figure>
+3. <picture>
+4. <audio>
+5. <video>
+
+<figure>:
+- to represent content that can stand alone without affecting the inner flow
+- a photo with caption like in blog (a photo on its own)
+- it could be photo, illustration, diagram, code snippet
+- Usually, it's a photo with caption, by using <figcaption>

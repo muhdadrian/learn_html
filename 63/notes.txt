@@ -1,0 +1,9 @@
+CSS validation pseudo-class:
+1. :required
+2. :valid
+3. :invalid
+
+# the three above are used to check if we are wrongly filled in the input
+
+# CSS also has tools to help us to validate input
+

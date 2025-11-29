@@ -1,0 +1,29 @@
+svg:
+- Scalable Vector Graphics
+- is an element based on XML to describe the 2D vector graphic
+- used to make photos, which quality will be maintained and not be broken when the photo is maximized
+- we can make our own line and shape or by using separate svg graphic (.svg)
+- each element in svg can be manipulated by using CSS
+- supported by modern browser
+
+code example:
+  <svg width="150" height="150">
+      <rect width="100" height="100" fill="lightblue">
+  </svg>
+
+# what svg benefits?
+- scalability (photo not broken when maximized. No need to have many photos for mobile, tablet and desktop. It's sufficient to have a photo)
+- Interactivity by using CSS (hover, transition, animation)
+- Easily editable
+- Compact file-size
+- SEO friendly (because it's made by using XML)
+
+SVG Basic Shapes:
+- Rectangle 
+- Circle
+- Ellipse
+- Line
+- Polyline
+- Polygon
+- Path
+

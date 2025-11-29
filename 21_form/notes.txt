@@ -1,0 +1,18 @@
+element in form:
+1. input - textfield, radio button etc
+2. textarea - similar to text field but bigger like message, comment, but input only for column  
+3. select - dropdown etc (Combo Box)
+4. button 
+5. label 
+
+#input:
+<input type="text">, its attributes:
+1. text
+2. password
+3. radio
+4. checkbox
+5. submit - send data (button)
+6. reset - delete all data (button)
+7. button - specific function for button
+
+#the submit, reset and button above are button that are made not using input

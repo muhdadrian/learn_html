@@ -1,0 +1,9 @@
+colspan and rowspan attributes are used to merge or combine two cells in table
+
+#colspan:
+ -used to combine or merge two horizontal cells (column) 
+ -two or more columns
+
+#rowspan:
+-used to combine or merge two vertical cells (row)
+-two or more rows

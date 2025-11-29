@@ -1,0 +1,15 @@
+Web Accessibility:
+1. Do realistic DOM structure. How? Answer in 2.
+2. Use semantic element. Don't overuse unneccesary div and span. Only use when 'darurat' (7 below).
+3. Use interactive control. If you want to use button, use button element or anchor, don't use div or span as interactive element. Screen reader does not think div / span as control.
+4. Use label for all control and images.
+5. Apply intuitive focus on management.
+6. Website can be fully accessed only by using keyboard.
+7. Use ARIA when needed.  
+
+DOM Tree (read by user) vs Accessibility Tree (read by screen reader).
+
+If we do not create good DOM Tree, then its Accessibility Tree also is not good. 
+
+Accessibility Testing:
+Chrome Lighthouse (guideline at WCAG)

@@ -1,0 +1,23 @@
+Media Elements:
+1. <img>
+2. <figure>
+3. <picture>
+4. <audio>
+5. <video>
+
+<video>:
+- this is more complex than audio
+- <video src="video/1.mp4" controls width="400"></video>
+
+# video attributes:
+- src
+- controls
+- poster
+- preload
+- autoplay
+- loop 
+- muted
+- width
+- height
+
+# webm file is smaller than mp4

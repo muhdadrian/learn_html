@@ -1,0 +1,34 @@
+<!-- tags in body -->
+
+for text:
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p>, ...
+
+text support:
+<br>, <hr>, <em>, <strong>, ...
+
+photo:
+<img>
+
+hyperlink:
+<a>
+
+list(bullets & numbering):
+<ul>, <ol>, <li>, <dl>, <dt>, <dd>
+
+table:
+<table>, <thead>, <tbody>, ...
+
+form:
+<form>, <input>, <select>, <button> ...
+
+script:
+<script>
+
+object:
+<object>
+
+grouping:
+<div>, <span>
+
+comment:
+<!-- This is comment -->

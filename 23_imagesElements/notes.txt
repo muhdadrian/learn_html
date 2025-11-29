@@ -1,0 +1,48 @@
+Media Elements:
+1. <img>
+2. <figure>
+3. <picture>
+4. <audio>
+5. <video>
+
+# img attributes:
+- src
+- alt
+- width & height
+- title
+- srcset (new attribute in HTML5)
+- sizes
+- loading
+
+# src:
+- compulsory attribute
+- path to photo folder
+- photo types: png, jpg, jpeg, gif, svg, webp (optimized for web), avif (optimized for web)
+- better use own photo. If other people's, then check its copyright
+- don't do hotlinking by linking other people's photos in their websites - it will cause us to take their bandwidth and we do not have control of the photos if they took down the photo.
+
+# alt:
+- alternative text
+- textual description of a photo
+- use when the photo cannot be displayed due to typo in writing path and slow connection.
+- for screen reader (accessibility).
+- for SEO - our web will be more recognized by search engine
+- always use alt - SG.
+- if in URL, write its url link
+
+# width & height:
+- to determine photo size (but not recommended to do in HTML but CSS)
+
+# title
+- to write additional info about the photo.
+- to add tooltip when the mouse hover on the photo.
+- it's additional from alt. Do not use title if there's no alt, as title not read by screen reader.
+
+# srcset
+- to make responsive web page
+- to choose different photo based on specific condition
+- it could be based on web width or pixel  
+- you need to refresh the browser to return the photo in small size (please check)
+-  srcset="img/small.jpg 500w, img/medium.jpg 750w, img/large.jpg 1000w" - we change the w to px:
+ srcset="img/small.jpg 1x, img/medium.jpg 2x, img/large.jpg 3x" - this will be displayed in retina - to see the result, right click and inspect - click to see in dimension - add device pixel ratio in three dots and see in DPR - refresh each time you change from 1 to 3
+

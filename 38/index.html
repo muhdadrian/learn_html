@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <video controls width="400">
+      <source src="video/1.webm" type="video/webm" />
+      <!-- subtitle | this we write manually | you can link with YouTube for other way (check with SG HTML5 #4 video) -->
+      <track
+        src="caption/caption.vtt"
+        kind="captions"
+        title="English"
+        srclang="en"
+      />
+    </video>
+  </body>
+</html>

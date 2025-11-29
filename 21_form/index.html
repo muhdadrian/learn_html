@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <form>
+      <!-- to write username at below is not recommended as it has no tag. Always use tag to write something in HTML -->
+
+      <!-- username:<input type="text" /> -->
+
+      <!-- to write input element in form there's tag called label -->
+      <!-- the for="" in label is for id="" in input. The id must equal with for. The label we do is for the input at below. They are partner -->
+      <!-- If you click the label, it will activate the input or textfield -->
+
+      <!-- text -->
+      <label for="username">username :</label>
+      <input type="text" id="username" />
+      <br />
+
+      <!-- password -->
+      <label for="password">password :</label>
+      <input type="password" id="password" />
+      <br />
+
+      <!-- radio -->
+      <input type="radio" id="man" name="gender" /><label for="man">man</label>
+      <input type="radio" id="woman" name="gender" /><label for="woman"
+        >woman</label
+      >
+      <br />
+
+      <!-- checkbox -->
+      <input type="checkbox" id="swimming" /><label for="swimming"
+        >swimming</label
+      >
+      <input type="checkbox" id="archery" /><label for="archery">archery</label>
+      <input type="checkbox" id="horseriding" /><label for="horseriding"
+        >horseriding</label
+      >
+      <br />
+
+      <!-- textarea -->
+      <textarea></textarea>
+      <br />
+
+      <!-- dropdown or combo box | Normally use for example to select date of birth etc -->
+      <select>
+        <option>Labuan</option>
+        <option>Kota Kinabalu</option>
+        <option>Kuala Lumpur</option>
+      </select>
+      <br />
+
+      <!-- submit -->
+      <!-- it's not recommended to use input tag for button as button is not an input element -->
+      <!-- <input type="submit" value="send" /> -->
+      <!-- replaced input above with button -->
+      <!-- button also has three types like input namely submit, reset and button -->
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

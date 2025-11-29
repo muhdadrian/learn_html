@@ -1,0 +1,27 @@
+tag structure:
+
+<nametag attribute="value">
+# tag can have an attribute for example:
+<body bgcolor="lightblue">
+#body is nametag, bgcolor is attribute and lightblue is value
+
+a tag can have more than an attribute for example:
+<body bgcolor="lightblue" id="myid" class="myclass">
+
+a tag can also has no attribute at all.
+
+
+each tag has default or global attribute
+
+global attributes:
+1) accesskey - this element can be accessed by using keyboard /shortcut
+2) class 
+3) id
+4) dir
+5) lang - language
+6) style - inline css
+7) tabindex - in form, when we type tab, the cursor move to where
+8) title - to give title to an element
+
+for complete attribute can visit:
+www.w3school.com/tags

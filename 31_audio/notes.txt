@@ -1,0 +1,35 @@
+Media Elements:
+1. <img>
+2. <figure>
+3. <picture>
+4. <audio>
+5. <video>
+
+<audio>:
+- <audio controls src="audio/1.mp3"></audio>
+- supported files: mp3, wav (better quality than mp3, but bigger file size), ogg (smaller size than mp3)
+- can use <source> tag to choose audio
+
+for more complex:
+  <body>
+    <figure>
+      Listen to Al-Quran
+      <figcaption>
+        <audio controls src="audio/1.mp3">
+          Browser does not support tag <code>audio</code>
+        </audio>
+      </figcaption>
+    </figure>
+  </body>
+
+# if browser does not support audio then the message: Browser does not support tag will be displayed
+
+#audio attributes:
+- src
+- controls - for user to use the controller - if we do not put controls, the audio will be displayed by JS   
+- preload 
+- autoplay
+- loop
+- muted
+
+# you can add more than an audio in a web page

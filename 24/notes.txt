@@ -1,0 +1,24 @@
+Media Elements:
+1. <img>
+2. <figure>
+3. <picture>
+4. <audio>
+5. <video>
+
+# img attributes:
+- src
+- alt
+- width & height
+- title
+- srcset (new attribute in HTML5)
+- sizes
+- loading
+
+***************************
+
+ # sizes
+ - to organize different photo size based on 'media condition' - we normally do this in CSS, but now HTML also has this by using sizes attribute
+ - sizes="(min-width: 1200px) 50vw" - when the screen reached 1200px, it will be half in  viewport width (1200/2=600), therefore the photo to be displayed is the medium size (500 to 750) and not the large size anymore.
+- how to read after adding the sizes?:
+small till 500, medium till 750, large till 1200 and return back to medium when it reached 1200 with half view port width 
+ 

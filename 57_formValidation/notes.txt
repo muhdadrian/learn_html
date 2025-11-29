@@ -1,0 +1,25 @@
+Form Validation:
+1. Client Side:
+2. Server Side
+
+Client Side Form Validation:
+1. HTML5 built-in validation:
+a) input types:
+- email
+- tel
+- url
+- number
+- range
+- datetime picker
+- color picker
+
+b) Attributes:
+- autocomplete (input/form)
+- autofocus
+- required
+- minlength & maxlength
+- min & max
+- step
+- pattern
+
+2. JavaScript

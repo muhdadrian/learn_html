@@ -1,0 +1,18 @@
+table has two:
+1. simple:
+tr - table row
+td - table data (column), which is inside tr
+
+2. complex:
+th - header
+
+five attributes for table:
+1. border - to make border or line in cell
+2. cellspacing - to add space between cell
+3. cellpadding - to add padding between cell
+4. colspan
+5. rowspan
+
+# the border, cellspacing and cellpadding above, we'll do it by using HMTL attribute first. We'll do it by using CSS later.
+
+# Refer to 19

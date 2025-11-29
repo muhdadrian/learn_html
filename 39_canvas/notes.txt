@@ -1,0 +1,94 @@
+What we can do with canvas?
+- 2D shape: rectangle, circle and triangle
+- 2D (using Canvas API) and 3D (using WebGL API) objects
+- color
+- animation
+- digital art
+- interactive digital art
+- game
+- data visualization
+- photo manipulation
+- real-time video processing
+
+canvas attributes:
+- width
+- height
+
+Canvas API:
+- to make canvas you must understand grid 
+
+0
+--------------------x
+0        |
+|        |y
+|--------|-------|
+|    x   |   m   |
+|        |-------|
+|
+|
+y
+
+- to make block m you must know the x and y coordinate
+
+# Canvas:
+In HTML:
+- <canvas id="mycanvas"></canvas>
+
+In JS:
+const mycanvas = document.getElementById("mycanvas");
+
+mycanvas.width = window.innerWidth;
+mycanvas.height = window.innerHeight;
+
+const c = mycanvas.getContext("2d");
+
+# Canvas API shapes:
+1. Rectangle:
+
+c.fillRect(25(x), 25(y), 100(width), 100(height));
+
+c.fillStyle = 'pink';
+c.strokeStyle = '#333';
+c.lineWidth = 5;
+
+c.rect(50, 50, 300, 400);
+c.fill(); -> from c.fillStyle = 'pink';
+c.stroke(); -> from c.strokeStyle = '#333';
+
+2. Arc / Circle:
+
+c.fillStyle = 'lightblue';
+c.strokeStyle = '#000';
+c.lineWidth = 2;
+
+c.arc(300(x), 300(y), 150(radius), 0(start angle), 2 * Math.PI(end angle))
+c.fill();
+c.stroke();
+
+3. Path (the shape is up to us):
+
+c.fillStyle = 'lightgreen';
+c.strokeStyle = '#000';
+c.lineWidth = 2;
+
+c.beginPath(); -> method beginPath
+c.moveTo(300, 50); -> x, y (coordinate)
+c.lineTo(450, 350); -> x, y (coordinate)
+c.lineTo(150, 350); -> x, y (coordinate)
+c.lineTo(300, 50); -> x, y (coordinate)
+c.fill();
+c.stroke();
+
+- if the line does not close the curve, then add c.closePath(); under c.beginPath();
+
+4. Bezier & Quadratic Curve
+
+# Canvas 3rd party library:
+- to use canvas, we can also use 3rd party library other than default canvas API.
+- library:
+a) D3.js (data visualization)
+b) three.js (data visualization)
+c) p5.js (data visualization)
+d) matter.js (to display 3Dobject)
+e) Phaser (to make game)
+f) babylon.js (to make game)

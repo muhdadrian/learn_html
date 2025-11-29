@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="post" autocomplete="off">
+      <div>
+        <label for="name">Enter name:</label>
+        <!-- the autofocus below will activate the input. Use tab to move from input to another input -->
+        <!-- required will make the input compulsory to be filled in lest the form will not be abled to be sent -->
+        <!-- the minlength below will require at least 2 characters -->
+        <!-- the maxlength will limit the character to 5 -->
+        <input
+          type="text"
+          name="name"
+          id="name"
+          autofocus
+          required
+          minlength="2"
+          maxlength="5"
+        />
+      </div>
+
+      <div>
+        <label for="email">Enter email:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div>
+        <label for="hpno">Enter phone no:</label>
+        <input type="tel" name="hpno" id="hpno" />
+      </div>
+
+      <div>
+        <label for="website">Enter website URL:</label>
+        <input type="url" name="website" id="website" />
+      </div>
+
+      <!-- the min and max are usually used in number -->
+      <!-- each number movement will be in per 5 -->
+      <div>
+        <label for="number">Enter number:</label>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          min="10"
+          max="100"
+          step="5"
+        />
+      </div>
+
+      <div>
+        <label for="slider">Enter number:</label>
+        <input type="range" name="slider" id="slider" />
+      </div>
+
+      <div>
+        <label for="date">Enter date:</label>
+        <input type="time" name="date" id="date" />
+      </div>
+
+      <div>
+        <label for="color">Enter color:</label>
+        <input type="color" name="color" id="color" />
+      </div>
+
+      <!-- to use pattern, you must learn REGEX first -->
+      <div>
+        <label for="postcode">Enter postcode:</label>
+        <input
+          type="text"
+          name="postcode"
+          id="postcode"
+          pattern="^([1-9][0-9]{4}$)"
+        />
+      </div>
+
+      <div>
+        <button type="submit">Send!</button>
+      </div>
+    </form>
+  </body>
+</html>

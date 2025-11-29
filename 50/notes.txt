@@ -1,0 +1,18 @@
+viewBox:
+- has four parameters (x, y, width, height)
+
+viewBox:
+  <svg class="one" viewBox="0 0 100 100">
+      <rect class="box1" />
+  </svg>
+
+*The viewBox is 100 and 100 above
+
+viewPort:
+.one {
+  background-color: #ddd;
+  width: 300px;
+  height: 300px;
+}
+
+*The viewPort is 300 and 300 above

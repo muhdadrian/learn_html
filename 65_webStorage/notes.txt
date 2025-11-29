@@ -1,0 +1,34 @@
+Web Storage:
+- also known as web storage API
+- has two storage:
+a) local storage
+b) session storage  
+
+Storage is used for:
+- user preference 
+- setting and configuration
+- score and leaderboards in game
+- video position / last audio
+
+Don't use for:
+- sensitive data
+- authentication
+
+localStorage & sessionStorage Properties:
+- setItem(key, value)
+- getItem(key)
+- removeItem(key)
+- clear()
+- key(index)
+- length
+
+Usage example:
+localStorage.setItem('name', 'Adrian');
+localStorage.getItem('name)
+
+To check storage in browser:
+- right click inspect, go to Application, and there are Local storage, Session storage, IndexDB, Cookies etc at the left side
+
+# Difference when the tab is closed:
+- localStorage - the value is kept in the memory. When the tab is closed, then reopened, the value is still there.
+- sessionStorage - the value will be gone when the tab is closed.

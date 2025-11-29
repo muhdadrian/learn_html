@@ -1,0 +1,6 @@
+JavaScript custom validation:
+- oninvalid
+- setCustomValidity()
+
+# above check in HTML name
+

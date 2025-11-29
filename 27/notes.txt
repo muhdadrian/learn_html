@@ -1,0 +1,14 @@
+Media Elements:
+1. <img>
+2. <figure>
+3. <picture>
+4. <audio>
+5. <video>
+
+<picture>:
+- it's similar to srcset and sizes attributes in <img> but this one is more flexible and clearer.
+- it's purpose is to optimize page to minimize bandwidth usage and to make the loading time faster.
+- can be used as art direction to display different photos in different devices
+- the img is compulsory: <img class="example" src="img/small.jpg" alt="masjid al-aqsa" /> - if the browser does not support picture, then the img will be used.
+- this will be easier to read when compared to by adding the srcset and sizes in img tag 
+- the code in the HTML is only for example. The real working code, Go to 28 with two separate img folders of img and img2

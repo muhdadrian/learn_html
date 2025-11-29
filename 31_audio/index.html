@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio</title>
+  </head>
+  <body>
+    <!-- below is simple version for audio -->
+    <!-- <audio src="audio/1.mp3" controls></audio> -->
+
+    <!-- to be more complex for audio can use <figure> at below -->
+
+    <figure>
+      <figcaption>Listen to Country Road by John Denver</figcaption>
+      <!-- you can add autoplay below - <audio controls autoplay> -->
+      <!-- you can add loop - <audio controls loop> -->
+      <!-- can add muted too - <audio controls muted> -->
+      <audio controls>
+        <source src="audio/1.ogg" type="audio/ogg" />
+        <!-- if browser does not support the ogg as its bandwith and size are smaller, it will play the mp3 below -->
+        <source src="audio/1.mp3" type="audio/mpeg" />
+      </audio>
+    </figure>
+  </body>
+</html>

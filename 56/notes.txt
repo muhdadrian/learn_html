@@ -1,0 +1,14 @@
+<path>
+
+Path Commands:
+- MoveTo: M, m (M is used to set the absolute coordinate from (0,0) cartesian coordinate, while m is to set coordinate, which is relative to the last coordinate for example coordinate (10, 10) will move from coordinate (0,0))
+- LineTo: L, l, H, h, V, v
+- Cubic Bezier Curve: C, c, S, s
+- Quadratic Bezier Curve: Q, q, T, t
+- Elliptical Arc Curve: A, a 
+
+SVG Resources:
+- blobmaker.app
+- shapedivider.app
+- svgrepo.com
+- simpleicons.org

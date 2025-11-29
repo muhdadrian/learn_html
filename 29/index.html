@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images Elements</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <div class="her_text">
+        <h1>Hello World</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          dolore facilis, magnam officia perferendis iusto dolorum a, culpa
+          architecto temporibus expedita officiis, veritatis soluta laudantium
+          provident amet. Iste, ipsum praesentium.
+        </p>
+      </div>
+      <picture>
+        <!-- the photo will turn into large img with half size display (50vw) -->
+        <source
+          media="(min-width: 960px)"
+          srcset="img2/large.jpg"
+          sizes="50vw"
+        />
+        <img src="img2/small.jpg" alt="masjid al-aqsa" />
+      </picture>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- if action is empty, the data will be sent to its own page -->
+    <form action="" method="post">
+      <div>
+        <!-- if for (label) and id (input) similar we can click the label in the web to activate the input without clicking the input  -->
+        <label for="name">Enter name:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+
+      <div>
+        <label for="email">Enter email:</label>
+        <!-- the email type below will validate the email -->
+        <!-- in mobile, it will display for email keyboard -->
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div>
+        <label for="hpno">Enter phone no:</label>
+        <!-- the tel type below will display number in mobile -->
+        <input type="tel" name="hpno" id="hpno" />
+      </div>
+
+      <div>
+        <label for="website">Enter website URL:</label>
+        <!-- the url type below will ask for full url (from https) -->
+        <input type="url" name="website" id="website" />
+      </div>
+
+      <div>
+        <label for="number">Enter number:</label>
+        <!-- the number type below - try to hover at the input, there's up and down arrows -->
+        <input type="number" name="number" id="number" />
+      </div>
+
+      <div>
+        <label for="slider">Enter number:</label>
+        <input type="range" name="slider" id="slider" />
+      </div>
+
+      <div>
+        <label for="date">Enter date:</label>
+        <!-- you can change the type below from date to month to week to time -->
+        <input type="time" name="date" id="date" />
+      </div>
+
+      <div>
+        <label for="color">Enter color:</label>
+        <input type="color" name="color" id="color" />
+      </div>
+
+      <div>
+        <button type="submit">Send!</button>
+      </div>
+    </form>
+  </body>
+</html>

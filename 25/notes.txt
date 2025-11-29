@@ -1,0 +1,23 @@
+Media Elements:
+1. <img>
+2. <figure>
+3. <picture>
+4. <audio>
+5. <video>
+
+# img attributes:
+- src
+- alt
+- width & height
+- title
+- srcset (new attribute in HTML5)
+- sizes
+- loading
+
+*****************************
+
+# loading
+- to determine how the photo is loaded by the browser
+- can be filled either 'eager' (default) or 'lazy
+- eager - loaded at initial
+- lazy - loaded when we scroll until the photo position - it will not loaded at first place (lazy loading) 

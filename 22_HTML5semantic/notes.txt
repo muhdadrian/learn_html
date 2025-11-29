@@ -1,0 +1,55 @@
+# span and div have no meaning
+
+# h1 vs span in displaying Hello World for example. Use h1 as it's more semantic
+
+Why we must write semantically?
+1. Accessibility (conveniently read by user)
+2. Maintainability (conveniently read by developer)
+3. SEO (conveniently read by search engine)
+
+Why we must write semantically (in details)?
+1. HTML should be written to represent data to be displayed not based on style (how it's displayed - size, color etc) for example use p for paragraph, use button for button.
+2. For accessibility for those using screen reader (disabled people).
+3. As a developer, it's easier for us to search and organize code that has meaning.
+4. It's influential on SEO, as HMTL semantic is considered as important keyword   
+
+The category of HTML5 element:
+1. Metadata: 
+Metadata content - base, link, meta, noscript, script, style, template, title - to describe about our website info, and what contained in metadata are not displayed in the web 
+2. Flow:
+a, abbr, address, area, article, aside, audio, b, bdi, bdo, blockquote, br, button, canvas, cite, code, data, date, datalist, del, details, dfn, dialog, div, dl, em, embed, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, i, iframe, img, input, ins, kbd, keygen, label, link, main, map, mark, math, menu, meta, meter, nav, noscript, object, ol, output, p, picture, pre, progress, q, ruby, s, samp, script, section, select, slot, small, span, strong, sub, sup, svg, table, template, textarea, time, u, ul, var, video, wbr, autonomous custom elements. Text   
+3. Sectioning: 
+article, aside, nav, section - before HMTL5 there's div with class header, footer etc
+4. Heading:
+h1 to h6, hgroup - to write title
+5. Phrasing:
+a, abbr, area, audio, b, bdi, bdo, br, button, canvas, cite, code, data, date, datalist, del, dfn, em, embed, i, iframe, img, input, ins, kbd, keygen, label, link, map, mark, math, meta, meter, noscript, object, output, picture, progress, q, ruby, s, samp, script, select, slot, small, span, strong, sub, sup, svg, template, textarea, time, u, var, video, wbr, autonomous custom elements, Text
+-to explain info in our website 
+6. Embedded:
+audio, canvas, embed, iframe, img, math, object, picture, svg, video
+- multi-media elements to be put inside our website
+7. Interactive:
+a, audio, button, details, embed, iframe, img, input, keygen, label, object, select, textarea, video
+- interactive content
+
+# HTML5 is semantic by using header, section etc compared to HTML4 that only using div with header etc classes
+ 
+What are the examples of element HMTL5 semantic (read MDN for further explanation)?
+1. <main>
+2. <nav>
+3. <section>
+4. <header>
+5. <footer>
+6. <article>
+
+If we want to add semantic for non-semactic element to be read well by screen reader for accesibility:
+By using WAI-ARIA - Web Accessibility Initiative - Accessible Rich Internet Applications -   
+
+<div id="navigation" role="navigation"></div>
+
+- the div above can be explained by using role="navigation" to make it more semantic for non-semantic element. You can even add more info:
+
+<div id="navigation" role="navigation" aria-label="my-main-navigation"></div>div
+
+# try to change div above to nav which is semantic.
+

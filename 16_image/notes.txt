@@ -1,0 +1,23 @@
+  external resource (or called hotlink) is not recommended like from google.com/images/spr/logo.png etc...
+
+	Why not recommended?
+	1. if we use image from other website, when the user opens our web, the bandwith that is used when the photo is displayed is not ours, but the website's owner from whom we linked the photo  - it's called 'curang'.
+
+	2. Copyright issue.
+
+	3. We depend other people's web, if their web is downed or cannot be accessed then the image will not be displayed.   
+
+  <img src="" alt="" />
+	#attributes for image:
+	1. src
+	2. alt - alternative text for photo. This text will be displayed when our photo is not displayed.
+	3. title - title of the photo that will be displayed when we put our cursor on the image (tooltip displayed).
+	4. width
+	5. height
+
+	# for width and height attributes, we can use either one of them or both.
+	# if we use one of them, the other one will be resized according to the proportion.
+	# if we use both, it is possible the photo will be stretched.
+	# to use width and height, we can use px (only number for example width="500") or % (relative to the page, if 50% - half of the page) for the values.  
+	#50% - the image will remain 50% from the page when we resize our browser. 
+
